@@ -1,6 +1,7 @@
 name: Build VSFilter
 
 on:
+  workflow_dispatch:
   push:
     branches: [ci, xy_sub_filter_rc*, vsfilter_rc*, master]
 
